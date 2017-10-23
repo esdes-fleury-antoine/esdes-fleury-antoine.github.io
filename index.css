@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+}
+
+.photoprofil {
+    size: 60%;
+    
+}
+
+header {
+background-color: red
+}
+header-active{
+    background-color: blue
+}
+
+#myButton {
+    transition: transform 1s;
+}
+.rotate {
+    transform: rotate(360deg);
+}
