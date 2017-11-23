@@ -394,4 +394,5 @@ w3.displayObject = function (id, data) {
     l = x.length;
     a.innerHTML = a.innerHTML.replace(r, result);
   }
-};
+}
+

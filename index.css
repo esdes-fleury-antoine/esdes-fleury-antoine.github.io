@@ -3,12 +3,17 @@ body{
 }
 
 .photoprofil {
-    width: 60%;
+    width: 30%;
+    align-content: center;
     
 }
 
+header {
+background-color: #4EA8CC;
+text-align: center;
+}
 header-active{
-    background-color: blue
+    background-color: blue;
 }
 
 #myButton {
@@ -17,3 +22,35 @@ header-active{
 .rotate {
     transform: rotate(360deg);
 }
+
+.w3-row-padding img {margin-bottom: 12px}
+    /* Set the width of the sidebar to 120px */
+    
+    
+.w3-sidebar {width: 120px;background: #222;}
+   
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+   
+#main {margin-left: 120px}
+   
+/* Remove margins from "page content" on small screens */
+
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+
+#PP {
+    width: 100%;
+}
+
+#bitmoji {
+    width : 120%;
+}
+
+#mybar {
+    height:24px;
+    width:20%;
+}
+
+#aboutme {
+    width: 100%;
+}
+    
