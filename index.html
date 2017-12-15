@@ -15,6 +15,7 @@
   <meta name="description" content="Antoine Fleury Chargé de communication | Banque Alimentaire du Rhône">
   <link rel="stylesheet" href="w3/w3.css">
   <link rel='stylesheet' href='index.css'>
+  <script src="/w3/w3.js"></script>
 </head>
 
 <body class="w3-black">
@@ -70,23 +71,28 @@
         <b>
           <i class="fa-fw w3-margin-right w3-text-grey"></i>Mes compétences</b>
       </p>
-      <p>Suite Adobe</p>
-      <div class="w3-light-grey w3-round-xlarge w3-small">
-        <div class="w3-container w3-center w3-round-xlarge w3-grey" style="width:70%">70%</div>
+      <p>Click pour voir mes compétences.</p>
+      
+      <button onclick="w3.hide('.skills')">Hide</button>
+      <button onclick="w3.show('.skills')">Show</button>
+      
+      <p class="skills">Suite Adobe</p>
+      <div class="w3-light-grey w3-round-xlarge w3-small skills">
+        <div class="w3-container w3-center w3-round-xlarge w3-grey skils" style="width:70%">70%</div>
       </div>
-      <p>Social Media manager</p>
-      <div class="w3-light-grey w3-round-xlarge w3-small">
-        <div class="w3-container w3-center w3-round-xlarge w3-grey" style="width:70%">
-          <div class="w3-center w3-text-black">70%</div>
+      <p class="skills">Social Media manager</p>
+      <div class="w3-light-grey w3-round-xlarge w3-small skills">
+        <div class="w3-container w3-center w3-round-xlarge w3-grey skills" style="width:70%">
+          <div class="w3-center w3-text-black skills">70%</div>
         </div>
       </div>
-      <p>Relations Presses</p>
-      <div class="w3-light-grey w3-round-xlarge w3-small">
-        <div class="w3-container w3-center w3-round-xlarge w3-grey" style="width:65%">65%</div>
+      <p class="skills">Relations Presses</p>
+      <div class="w3-light-grey w3-round-xlarge w3-small skills">
+        <div class="w3-container w3-center w3-round-xlarge w3-grey skills" style="width:65%">65%</div>
       </div>
-      <p>Evenementiel</p>
-      <div class="w3-light-grey w3-round-xlarge w3-small">
-        <div class="w3-container w3-center w3-round-xlarge w3-grey" style="width:65%">65%</div>
+      <p class="skills">Evenementiel</p>
+      <div class="w3-light-grey w3-round-xlarge w3-small skills">
+        <div class="w3-container w3-center w3-round-xlarge w3-grey skils" style="width:65%">65%</div>
       </div>
       <br>
     </section>
@@ -152,7 +158,13 @@
 
     <script src="w3/w3.js"></script>
     <script src="index.js"></script>
+    <script src="/lib/w3.js"></script>
+    <body>
     
+    <p>Click the buttons to hide or show all elements with class="city".</p>
+    
+    <button onclick="w3.hide('.city')">Hide</button>
+    <button onclick="w3.show('.city')">Show</button>
 </body>
 
 </html>
