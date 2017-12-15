@@ -1,28 +1,3 @@
-body{
-    margin: 0;
-}
-
-.photoprofil {
-    width: 30%;
-    align-content: center;
-    
-}
-
-header {
-background-color: #4EA8CC;
-text-align: center;
-}
-header-active{
-    background-color: blue;
-}
-
-#myButton {
-    transition: transform 1s;
-}
-.rotate {
-    transform: rotate(360deg);
-}
-
 .w3-row-padding img {margin-bottom: 12px}
     /* Set the width of the sidebar to 120px */
     
@@ -53,4 +28,3 @@ header-active{
 #aboutme {
     width: 100%;
 }
-    
