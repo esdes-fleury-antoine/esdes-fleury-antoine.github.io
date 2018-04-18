@@ -13,7 +13,7 @@ Mais j'aimerai également, faire un blog, où je partagerai des photos, articles
 
 2ieme partie : Mes expériences et compétences
 
-![diapo1](/maquetteSite/diapositive1.png)
+![diapo1](/maquetteSite/Diapositive1.png)
 
 ![diapo2](/MaquetteSite/diapositive2.png)
 
