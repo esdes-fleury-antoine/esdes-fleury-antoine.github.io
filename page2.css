@@ -1,0 +1,47 @@
+/*For mobiles*/
+@media only screen and (max-width:600px) {
+    section {
+        flex-direction: column;
+    }
+    article {
+        width: 80%;
+    }
+
+}
+
+/*For tablets only */ 
+@media only screen and (max-width:600px) and (min-width:900px) {
+    article{
+        width: 50%;
+    }
+}
+
+/*For Desktop only */
+@media only screen and (min-width:900px) {
+    
+}
+
+.xp {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    color: black;
+    background-color: white;
+}
+
+h1 {
+    color: black
+}
+
+h2 {
+    color: grey
+}
+
+p {
+    color: blue
+}

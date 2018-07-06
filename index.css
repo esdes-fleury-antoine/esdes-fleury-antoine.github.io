@@ -1,121 +1,4 @@
-html {
-    height: 100%;
-}
-
-body {
-    height: 100%;
-    margin: 0;
-}
-
-header {
-    height: 100%;
-    margin: 0;
-    background-image: url("img/lul.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-h1 {
-    color: #B82626;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    font-family: 'Fredoka One', cursive;
-    border-style: dotted;
-    background-color: rgba(150, 150, 150, 0,8);
-    padding: 25px;
-    transition: background-color 1s ease-in-out;
-    text-align: center;
-
-}
-
-h1:hover {
-    background-color: rgba(150, 150, 150, 0.7);
-}
-
-section {
-    min-height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center;
-    align-content: center;
-}
-
-article {
-    border: 2px solid #FFFCFC;
-    border-radius: 10px;
-    flex-direction: column;
-    margin: 20px;
-    width: 20%;
-    align-items: center;
-    position: relative;
-    transition: all 0.3s ease-in-out;
-    overflow: hidden;    
-}
-
-.bg-img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    z-index: -1;
-    filter: grayscale(1);
-    transition: all 0.3s ease-in-out;
-}
-
-article:hover .bg-img {
-    filter: grayscale(0);
-    transform: scale(1.5);
-}
-
-header path {
-    fill:transparent;
-    stroke: red;
-}
-
-.anima {
-    width:125%;
-}
-#article1 {background-image: url("img/wallpaper.jpg");}
-
-#article2 {background-image: url("img/lul.jpg");}
-
-#article3 {background-image: url("img/boat.jpg");}
-
-#article4 {background-image: url("img/gateau.jpg");}
-
-#article5 {background-image: url("img/maxim.jpg");}
-
-#article6 {background-image: url("img/city.jpg");}
-
-#article7 {background-image: url("img/cap.jpg");}
-
-#article8 {background-image: url("img/fire.jpg");}
-
-
-article h2 {
-    text-align: center;
-    color: #B42121;
-
-}
-
-p {
-    text-align: center;
-}
+/*responsive*/
 
 /*For mobiles*/
 @media only screen and (max-width:600px) {
@@ -140,3 +23,38 @@ p {
     
 }
 
+
+#img1 {
+    width: 100%;
+    height: 110%;
+    opacity: 1;
+
+}
+
+#moi {
+    justify-content: center;
+
+}
+
+#callto {
+    background-color:grey; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+#callto:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(255, 2s55, 255, 0.19);
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
+}
