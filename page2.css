@@ -45,3 +45,19 @@ h2 {
 p {
     color: blue
 }
+
+.paper {
+    height: 50px; 
+    width: 50px;
+    transform: translate(0px, 0px);
+    animation: paper 5s ease-in-out alternate; 
+
+}
+
+@keyframes paper {
+    from {
+        transform: translate(-600, 500);
+    }
+    to  {
+        transform: translate(0px, 0px);
+    }}

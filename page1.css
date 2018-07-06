@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 /*For mobiles*/
 @media only screen and (max-width:600px) {
     section {
@@ -35,4 +37,8 @@
     justify-content: center;
     color: black;
     background-color: white;
+}
+
+p {
+    font-family:"roboto";
 }
